@@ -1,8 +1,5 @@
 """Central configuration for the autonomous driving segmentation pipeline.
 
-Keep your hyperparameters here. It keeps run.py clean and makes 
-hyperparameter tuning a lot easier than hunting through 6 different files.
-"""
 
 CONFIG = {
     # ── Dataset / DataLoader ───────────────────────────────────────
