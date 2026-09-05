@@ -1,4 +1,4 @@
-"""Standalone script for downloading and extracting the CamVid dataset."""
+
 import os
 
 from src.utils import download_data
@@ -6,7 +6,7 @@ from src.utils import download_data
 def main():
     os.makedirs("data", exist_ok=True)
     
-    # Hardcoded URL and paths as requested
+    # dataset url
     dataset_url = "https://s3.amazonaws.com/fast-ai-imagelocal/camvid.tgz"
     archive_name = "camvid.tgz"
     target_dir = "data/camvid"
