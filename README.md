@@ -15,7 +15,7 @@ Train
 ## Project Layout
 
 ```
-autonomous_driving_segmentation/
+autonomous-driving-segmentation/
 ├── pyproject.toml
 ├── .python-version
 ├── .gitignore
